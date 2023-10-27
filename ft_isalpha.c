@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:20:17 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:20:19 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/25 18:37:28 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,12 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }
+/*int	main()
+{
+	int c;
+	
+	c = 'a';
+	ft_isalpha('a');
+	
+	printf("%d", ft_isalpha('a'));
+}*/

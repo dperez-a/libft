@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:20:42 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:21:05 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/27 12:36:50 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,3 +52,12 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
+/*int	main()
+{
+	int n;
+	char *str;
+
+	n = -12345;
+	str = ft_itoa(n);
+	printf("%s", str);
+}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:42 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:24:44 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/27 10:32:07 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,15 @@ int	ft_toupper(int c)
 	if (c >= 'a' && c <= 'z')
 		c -= 32;
 	return (c);
+}
+int	main()
+{
+	int c;
+	int d;
+	
+	c = 'a';
+	d = 'x';
+	printf("%c", ft_toupper(c));
+	printf("\n");
+	printf("%c", ft_toupper(d));
 }

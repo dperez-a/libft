@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:20:24 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:20:26 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/25 18:43:52 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,12 @@ int	ft_isascii(int c)
 {
 	return (c >= 0 && c < 128);
 }
+/*int	main()
+{
+	int c;
+
+	c = 435;
+	ft_isascii(435);
+
+	printf("%d", ft_isascii(435));
+}*/

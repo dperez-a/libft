@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:22:14 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:22:16 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/27 13:06:23 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,14 @@ void	*ft_memchr(const void *str, int c, size_t n)
 		n--;
 	}
 	return (NULL);
+}
+int main()
+{
+	char str[] = "Hola";
+	int c = 'l';
+	size_t n = 4;
+	void *ptr;
+	
+	ptr = ft_memchr(str, c, n);
+	printf("%s", (char *)ptr);
 }
