@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:22:30 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:22:33 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/31 09:51:42 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,18 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+/*int main(void)
+{
+	size_t len;
+	char src[] = "Hola";
+	char dst[] = "Adios";
+	
+	len = 5;
+	src[len] = '\0';
+	printf("Original: %s\n", src);
+	printf("Original : %s\n", dst);
+	ft_memmove(dst, src, len);
+	printf("Copia: %s\n", src);
+	printf("Copia : %s\n", dst);
+	return (0);
+}*/
