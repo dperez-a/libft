@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:22:48 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:22:49 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/31 19:09:09 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,12 @@ void	ft_putendl_fd(const char *s, int fd)
 		write(fd, "\n", 1);
 	}
 }
+/*int main(void)
+{
+	char s[] = "Hola";
+	int fd = 0;
+
+	write(fd, s, ft_strlen(s));
+	write(fd, "\n", 1);
+	return (0);
+}*/

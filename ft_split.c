@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:23:04 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:07 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/02 19:16:14 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,3 +102,21 @@ char	**ft_split(char const *s, char c)
 	split = split_words(s, c, split, words);
 	return (split);
 }
+/*int	main(void)
+{
+    char	**split;
+    char	*str = "Hola,que,tal,estas";
+    char	delimiter = ',';
+    int		i;
+
+    split = ft_split(str, delimiter);
+    if (!split)
+        return (1);
+    i = 0;
+    while (split[i])
+    {
+        printf("%s\n", split[i]);
+        i++;
+    }
+    return (0);
+}*/

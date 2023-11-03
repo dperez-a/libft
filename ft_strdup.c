@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:23:16 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:18 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/02 19:35:22 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,11 @@ char	*ft_strdup(const char *src)
 	ft_memcpy(dest, src, len + 1);
 	return (dest);
 }
+/*int main()
+{
+	char *src = "Hola";
+	char *dest;
+	
+	dest = ft_strdup(src);
+	printf("%s", dest);
+}*/

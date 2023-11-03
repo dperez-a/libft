@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:23:10 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:12 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/02 19:19:07 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,10 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)(s + i));
 	return (NULL);
 }
+/*int main()
+{
+	char *s = "Hola";
+	int c = 'l';
+	
+	printf("%s", ft_strchr(s, c));
+}*/

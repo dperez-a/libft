@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:23:50 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:51 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 12:34:51 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,15 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
+/*int main()
+{
+	char dst[] = "Hola";
+	char src[] = "mundoooo";
+	size_t size;
+	size_t result;
+	
+	size = 7;
+	result = ft_strlcpy(dst, src, size);
+	printf("%zu", result);
+	return (0);
+}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:13 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:24:15 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 12:54:21 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,14 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+/*int main()
+{
+	char haystack[] = "Hola mundo";
+	char needle[] = "mundo";
+	size_t len = 11;
+	char *result;
+	
+	result = ft_strnstr(haystack, needle, len);
+	printf("%s", result);
+	return (0);
+}*/

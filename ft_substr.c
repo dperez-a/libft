@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:31 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:24:33 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 13:07:46 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
+/*int	main(void)
+{
+    char	str[] = "Hola, mundo!";
+    char	*substr;
+
+    substr = ft_substr(str, 5, 6);
+    if (substr == NULL)
+        return (1);
+    printf("Cadena original: \"%s\"\n", str);
+    printf("Subcadena desde el índice 5 con longitud 6: \"%s\"\n", substr);
+    free(substr);
+    return (0);
+}*/

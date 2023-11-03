@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:01 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:24:03 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 12:41:17 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,23 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	new_str[i] = '\0';
 	return (new_str);
+}
+char	to_upper(unsigned int i, char c)
+{
+    if (c >= 'a' && c <= 'z')
+        return (c - 'a' + 'A');
+    return (c);
+}
+int	main(void)
+{
+    char	str[] = "Hola, mundo!";
+    char	*result;
+
+    result = ft_strmapi(str, &to_upper);
+    if (result == NULL)
+        return (1);
+    printf("Cadena original: %s\n", str);
+    printf("Cadena modificada: %s\n", result);
+    free(result);
+    return (0);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:26 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:24:28 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 13:02:21 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,3 +64,17 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(newstr, s1 + start, end - start + 1);
 	return (newstr);
 }
+/*int	main(void)
+{
+    char	str[] = "   Hola, mundo!   ";
+    char	set[] = " ";
+    char	*new_str;
+
+    new_str = ft_strtrim(str, set);
+    if (new_str == NULL)
+        return (1);
+    printf("Cadena original: \"%s\"\n", str);
+    printf("Cadena sin espacios en blanco al principio y al final: \"%s\"\n", new_str);
+    free(new_str);
+    return (0);
+}*/

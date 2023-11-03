@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:19:48 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:19:51 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/10/31 18:43:47 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,12 @@ int	ft_atoi(const char *str)
 	}
 	return (num * sign);
 }
+/*int main()
+{
+	char str [] = "  -123456";
+	int num;
+	
+	num = ft_atoi(str);
+	printf("%d\n", ft_atoi(str));
+	return (0);
+}*/

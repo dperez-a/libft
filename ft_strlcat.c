@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:23:44 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:45 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/03 12:26:51 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,14 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dest_length = size;
 	return (dest_length + src_length);
 }
+/*int main()
+{
+	char dst[] = "Hola";
+	char src[] = "Mundo";
+	size_t size = 5;
+	size_t result;
+	
+	result = ft_strlcat(dst, src, size);
+	printf("%zu", result);
+	return (0);
+}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dperez-a <dperez-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:22:59 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/18 12:23:01 by dperez-a         ###   ########.fr       */
+/*   Updated: 2023/11/02 19:04:28 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,10 @@ void	ft_putstr_fd(const char *s, int fd)
 		}
 	}
 }
+/*int main(void)
+{
+	char *s = "Hola";
+	int fd = 0;
+	
+	ft_putstr_fd(s, fd);
+}*/
