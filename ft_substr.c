@@ -6,7 +6,7 @@
 /*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:31 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/11/03 13:07:46 by dani_mm__        ###   ########.fr       */
+/*   Updated: 2023/11/16 09:30:30 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-/*int	main(void)
+int	main(void)
 {
-    char	str[] = "Hola, mundo!";
+    char	str[] = " Hola, mundo!";
     char	*substr;
 
     substr = ft_substr(str, 5, 6);
@@ -49,4 +49,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
     printf("Subcadena desde el índice 5 con longitud 6: \"%s\"\n", substr);
     free(substr);
     return (0);
-}*/
+}

@@ -6,7 +6,7 @@
 /*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:19:48 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/31 18:43:47 by dani_mm__        ###   ########.fr       */
+/*   Updated: 2023/11/14 20:09:49 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,9 @@ int	ft_atoi(const char *str)
 }
 /*int main()
 {
-	char str [] = "  -123456";
-	int num;
+	char str[]= "-12345672";
+	int i;
 	
-	num = ft_atoi(str);
-	printf("%d\n", ft_atoi(str));
-	return (0);
+	i = ft_atoi(str);
+	printf("El nº convertido a int es:\n\n%d\n", ft_atoi(str));
 }*/

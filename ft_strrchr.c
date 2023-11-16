@@ -6,7 +6,7 @@
 /*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:24:20 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/11/03 12:56:40 by dani_mm__        ###   ########.fr       */
+/*   Updated: 2023/11/16 09:39:42 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,13 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*int main()
+int main()
 {
-	char s[] = "Hola mundo";
-	int c = 'd';
+	char s[] = "Hola loco, la lona esta lacia";
+	int c = 'l';
 	char *result;
 
 	result = ft_strrchr(s, c);
 	printf("%s", result);
 	return (0);
-}*/
+}

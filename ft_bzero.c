@@ -6,7 +6,7 @@
 /*   By: dani_mm__ <dani_mm__@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/18 12:19:55 by dperez-a          #+#    #+#             */
-/*   Updated: 2023/10/27 12:34:23 by dani_mm__        ###   ########.fr       */
+/*   Updated: 2023/11/14 20:15:15 by dani_mm__        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,10 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*int	main()
+int main(void)
 {
-	char s[] = "hola";
-	size_t n = 5;
-	
-	ft_bzero(s, n);
-	printf("%s",s);
-}*/
+	char s[10] = "Hola";
+	ft_bzero(s, 3);
+	printf("%s", s);
+	return (0);
+}
